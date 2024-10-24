@@ -1,0 +1,3 @@
+[submodule "blockchain/TRST0"]
+	path = blockchain/TRST0
+	url = https://github.com/TroodInc/TRST0
