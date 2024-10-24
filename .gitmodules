@@ -1,3 +1,57 @@
 [submodule "blockchain/TRST0"]
 	path = blockchain/TRST0
 	url = https://github.com/TroodInc/TRST0
+[submodule "business-objects/ORM"]
+	path = business-objects/ORM
+	url = https://github.com/TroodInc/custodian
+[submodule "infrastructure/auth"]
+	path = infrastructure/auth
+	url = https://github.com/TroodInc/trood-auth
+[submodule "infrastructure/mail"]
+	path = infrastructure/mail
+	url = https://github.com/TroodInc/trood-mail
+[submodule "front-end/trood-core-front"]
+	path = front-end/trood-core-front
+	url = https://github.com/TroodInc/trood-core-front
+[submodule "data-analysis/reporting"]
+	path = data-analysis/reporting
+	url = https://github.com/TroodInc/trood-reporting
+[submodule "front-end/trood-restify"]
+	path = front-end/trood-restify
+	url = https://github.com/TroodInc/trood-restify
+[submodule "infrastructure/fileservice"]
+	path = infrastructure/fileservice
+	url = https://github.com/TroodInc/trood-fileservice
+[submodule "infrastructure/search"]
+	path = infrastructure/search
+	url = https://github.com/TroodInc/trood-search
+[submodule "infrastructure/scheduler"]
+	path = infrastructure/scheduler
+	url = https://github.com/TroodInc/trood-scheduler
+[submodule "events-processes/events"]
+	path = events-processes/events
+	url = https://github.com/TroodInc/trood-events
+[submodule "events-processes/n8n"]
+	path = events-processes/n8n
+	url = https://github.com/TroodInc/trood-n8n
+[submodule "integration/exchange"]
+	path = integration/exchange
+	url = https://github.com/TroodInc/trood-exchange
+[submodule "infrastructure/journal"]
+	path = infrastructure/journal
+	url = https://github.com/TroodInc/trood-journal
+[submodule "integration/crossover"]
+	path = integration/crossover
+	url = https://github.com/TroodInc/trood-crossover
+[submodule "front-end/trood-core-template"]
+	path = front-end/trood-core-template
+	url = https://github.com/TroodInc/trood-core-template
+[submodule "integration/registry"]
+	path = integration/registry
+	url = https://github.com/TroodInc/serviceregistry
+[submodule "front-end/react-boilerplate"]
+	path = front-end/react-boilerplate
+	url = https://github.com/TroodInc/react-boilerplate
+[submodule "business-objects/custodian-client-python"]
+	path = business-objects/custodian-client-python
+	url = https://github.com/TroodInc/custodian_client
