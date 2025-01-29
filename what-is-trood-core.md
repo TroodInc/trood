@@ -8,18 +8,18 @@ Trood Core is a set of microservices that provide various functional blocks for 
 - Bulk operations (mass addition, updating, deletion).
 - Integration with external systems via Webhooks.
 
-### File Service (File management and processing):
+### [File Service](docs/file-service.md) (File management and processing):
 - Support for metadata, extensions, types, and templates.
 - Document templates and on-the-fly file generation.
 - Integration with ABAC for file access management.
 
-### Auth Service (Authorization and access management):
+### [Auth Service](auth-service.md) (Authorization and access management):
 - High flexibility in access management thanks to ABAC.
 - Easy integration with other systems via REST API.
 - Detailed control over users and roles.
 - Built-in security mechanisms (multi-factor authentication, tokens).
 
-### Mail Service (Email handling):
+### [Mail Service](mail-service.md) (Email handling):
 - Mailbox management (SMTP/IMAP).
 - Sending and receiving emails, attachments.
 - Working with folders, email threads, contacts.
