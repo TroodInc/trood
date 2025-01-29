@@ -2,7 +2,7 @@
 
 Thank you for contributing to Trood Core!
 
-All of the necessary information can be found in our [code of conduct](https://www.notion.so/trood/Trood-Testament-4a08910e65c04cf39253d0fb8f06ef59) as well as GitHub discussions.
+All of the necessary information can be found in our [code of conduct](https://www.notion.so/trood/Trood-Testament-4a08910e65c04cf39253d0fb8f06ef59) as well as in [GitHub discussions](https://github.com/orgs/TroodInc/discussions).
 
 ### Proposing changes
 
