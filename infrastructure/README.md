@@ -1,4 +1,4 @@
-## Capabilities of File Service
+# Capabilities of File Service
 
 ### Flexible integration with cloud storage
 
@@ -19,7 +19,8 @@
 
 Useful for "safe" deletion and the possibility of "restoration" if needed.
 
-## Capabilities of Auth Service (ABAC)
+
+# Capabilities of Auth Service (ABAC)
 
 ### Attribute-Based Access Control
 
@@ -40,7 +41,8 @@ If additional security measures are needed, everything is built-in and available
 - You can hide certain fields in the response (e.g., "salary" for regular users).
 - Convenient when the same entity is used by different user categories.
 
-## Capabilities of Mail Service
+
+# Capabilities of Mail Service
 
 ### Connecting external mail servers
 
