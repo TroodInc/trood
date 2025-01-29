@@ -16,12 +16,11 @@ Join us in building the future of software development. Whether you're sharing y
 
 - [Trood Team Wiki](https://trood.com/teamspace): Access detailed documentation and resources to get started.
 - [Join Trood Community](https://trood.com/launchpad): Connect with peers and explore opportunities to collaborate.
-- [DOCS](docs/)
-- [Contribution](contributing.md)
+- [Contribution](CONTRIBUTING.md)
 
 ## Submodules
 
-Brief description of each submodule can be found [here](what-is-trood-core.md)
+Brief description of each submodule can be found [here](DESCRIPTION.md)
 
 This repository contains the following submodules:
 
