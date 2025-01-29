@@ -11,53 +11,11 @@
     "infrastructure/mail": {
       "description": "Mail Service"
     },
-    "front-end/trood-core-front": {
-      "description": "React components for Trood Business Objects"
-    },
-    "data-analysis/reporting": {
-      "description": "Basic reporting over PostgreSQL on Python"
-    },
-    "front-end/trood-restify": {
-      "description": "React/Redux superstructuring"
-    },
     "infrastructure/fileservice": {
       "description": "A lightweight file service"
-    },
-    "infrastructure/search": {
-      "description": "An HTTP proxy for Sphinx Search"
-    },
-    "infrastructure/scheduler": {
-      "description": "A lightweight scheduler service"
-    },
-    "events-processes/events": {
-      "description": "Complex Event Processing"
-    },
-    "events-processes/n8n": {
-      "description": "BPMN integration with n8n"
-    },
-    "integration/exchange": {
-      "description": "Integration Service"
-    },
-    "infrastructure/journal": {
-      "description": "Journaling, Logging"
-    },
-    "integration/crossover": {
-      "description": "Highload Integration"
     },
     "front-end/trood-core-template": {
       "description": "React/Redux Front-End Boilerplate for Trood Business Objects"
     },
-    "integration/registry": {
-      "description": "Service Registry"
-    },
-    "front-end/react-boilerplate": {
-      "description": "Pure React/Zustand boilerplate"
-    },
-    "front-end/vue-boilerplate": {
-      "description": "Pure Vue/Typescript boilerplate"
-    },
-    "business-objects/custodian-client-python": {
-      "description": "Python client for Trood Business Objects over Custodian"
-    }
   }
   
