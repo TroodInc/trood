@@ -1,14 +1,14 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 // Paths to the .gitmodules and repos.json files
-const gitmodulesPath = path.join(__dirname, '.gitmodules');
-const reposJsonPath = path.join(__dirname, 'repos.json');
-const readmePath = path.join(__dirname, 'README.md');
+const gitmodulesPath = path.join(__dirname, ".gitmodules");
+const reposJsonPath = path.join(__dirname, "repos.json");
+const readmePath = path.join(__dirname, "README.md");
 
 // Function to parse .gitmodules
 function parseGitmodules() {
-  const gitmodules = fs.readFileSync(gitmodulesPath, 'utf8');
+  const gitmodules = fs.readFileSync(gitmodulesPath, "utf8");
   const submodules = [];
   const regex = /\[submodule "(.*?)"\]\s+path = (.*?)\s+url = (.*?)/g;
   let match;
@@ -16,7 +16,7 @@ function parseGitmodules() {
     submodules.push({
       name: match[1],
       path: match[2],
-      url: match[3]
+      url: match[3],
     });
   }
   return submodules;
@@ -25,10 +25,10 @@ function parseGitmodules() {
 // Function to load descriptions from repos.json
 function loadDescriptions() {
   if (fs.existsSync(reposJsonPath)) {
-    const data = fs.readFileSync(reposJsonPath, 'utf8');
+    const data = fs.readFileSync(reposJsonPath, "utf8");
     return JSON.parse(data);
   } else {
-    console.warn('repos.json not found, proceeding without descriptions.');
+    console.warn("repos.json not found, proceeding without descriptions.");
     return {};
   }
 }
@@ -52,9 +52,11 @@ function generateReadme(submodules, descriptions) {
   content += `## Submodules\n\nThis repository contains the following submodules:\n\n`;
   content += `| Repository Name | Path | URL | Description |\n| --- | --- | --- | --- |\n`;
 
-  submodules.forEach(submodule => {
-    const description = descriptions[submodule.name]?.description || 'No description available.';
-    content += `| **${submodule.name}** | \`${submodule.path}\` | [${submodule.url}](${submodule.url}) | ${description} |\n`;
+  submodules.forEach((submodule) => {
+    const description =
+      descriptions[submodule.name].description || "No description available.";
+    // const description = 'No description available.';
+    content += `| **${submodule.name}** | \`${submodule.path}\` | [${submodule.name}](${submodule.url}) | ${description} |\n`;
   });
 
   // Call-to-action with links
@@ -72,7 +74,6 @@ function generateReadme(submodules, descriptions) {
   return content;
 }
 
-
 // Main function
 function updateReadme() {
   const submodules = parseGitmodules();
@@ -80,7 +81,7 @@ function updateReadme() {
   const newReadmeContent = generateReadme(submodules, descriptions);
 
   // Write the new README content to README.md
-  fs.writeFileSync(readmePath, newReadmeContent, 'utf8');
+  fs.writeFileSync(readmePath, newReadmeContent, "utf8");
 }
 
 // Run the update function
