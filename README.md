@@ -12,6 +12,8 @@ For the community, Trood provides a platform to collaborate, share, and showcase
 
 Join us in building the future of software development. Whether you're sharing your own libraries, contributing to existing projects, or learning from others, there's a place for you here.
 
+## [DOCS](docs/)
+
 ## Submodules
 
 This repository contains the following submodules:
