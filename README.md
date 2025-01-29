@@ -12,9 +12,16 @@ For the community, Trood provides a platform to collaborate, share, and showcase
 
 Join us in building the future of software development. Whether you're sharing your own libraries, contributing to existing projects, or learning from others, there's a place for you here.
 
-## [DOCS](docs/)
+### Useful Links
+
+- [Trood Team Wiki](https://trood.com/teamspace): Access detailed documentation and resources to get started.
+- [Join Trood Community](https://trood.com/launchpad): Connect with peers and explore opportunities to collaborate.
+- [DOCS](docs/)
+- [Contribution](contribution.md)
 
 ## Submodules
+
+Brief description of each submodule can be found [here](description.md)
 
 This repository contains the following submodules:
 
@@ -54,10 +61,7 @@ If you need to convince clients that this is faster and cheaper than custom deve
 
 Use Trood Core as a foundation, and AI tools (Cursor, ChatGPT, etc.) — to speed up writing auxiliary logic, tests, frontend, etc. This combination gives developers the maximum advantage in time and quality.
 
-### Useful Links
 
-- [Trood Team Wiki](https://trood.com/teamspace): Access detailed documentation and resources to get started.
-- [Join Trood Community](https://trood.com/launchpad): Connect with peers and explore opportunities to collaborate.
 
 ### Contact Us
 
