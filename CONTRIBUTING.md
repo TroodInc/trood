@@ -106,16 +106,19 @@ We follow these guidelines for code reviews:
 ---
 
 ## 📂 **File and Directory Structure**
-Ensure you place contributions in the appropriate directory under `categories/`:
+Ensure you place contributions in the appropriate directory under the relevant modules:
 ```
-/categories/
-    ├── business-data/
-    ├── ai/
+/modules/
+    ├── business-data-management/
+    ├── processes-and-events/
+    ├── infrastructure-devops/
+    ├── data-analysis/
+    ├── ui-ux/
     ├── security/
     ├── web3/
-    ├── devops/
-    └── ui-ux/
+    └── human-workflow/
 ```
+
 ---
 
 ## ✅ **Contribution Checklist**
