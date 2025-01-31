@@ -18,7 +18,7 @@ Unlike our [Trood Product Roadmap](ROADMAP.md), which focuses on end-user soluti
 
 ### **Phase 1: Foundation (Current Stage)**
 ✅ Establish core structure with categorized repositories  
-✅ Reformant and add solutions of Trood Development Team to the Metarepository
+✅ Reformant and add solutions of Trood Development Team to the Metarepository\n
 ✅ Collect and organize high-quality existing solutions  
  
 
