@@ -60,7 +60,8 @@ Developers are encouraged to submit useful open-source projects related to:
 - **Security**
 - **Web3 & Blockchain** (Smart contracts, decentralized apps, token management)
 - **Human Workflow Automation** (Task automation, AI-driven collaboration tools)
-  Check out [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+Check out [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ### 2️⃣ Improve Existing Projects
 
