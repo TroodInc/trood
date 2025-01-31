@@ -108,14 +108,14 @@ We follow these guidelines for code reviews:
 ## 📂 **File and Directory Structure**
 Ensure you place contributions in the appropriate directory under the relevant modules:
 ```
-/trood/
-    ├── business-objects/
+/modules/
+    ├── business-data-management/
     ├── processes-and-events/
     ├── infrastructure-devops/
     ├── data-analysis/
-    ├── front-end/
+    ├── ui-ux/
     ├── security/
-    ├── blockchain/
+    ├── web3/
     └── human-workflow/
 ```
 
