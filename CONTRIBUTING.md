@@ -14,7 +14,6 @@ The best way to propose a change is to start a discussion on our GitHub reposito
 
 - By effectively engaging with the our team and community early in your process, we're better positioned to give you feedback and understand your pull request once you open it. If the first thing we see from you is a big changeset, we're much less likely to respond to it in a timely manner.
 
-
 ## 🛠 **How to Contribute**
 
 We welcome contributions in the following forms:
@@ -31,33 +30,37 @@ We welcome contributions in the following forms:
 
 1. **Fork the Repository:** Fork the project to your GitHub account.
 2. **Clone Your Fork:**
-    ```bash
-    git clone https://github.com/your-username/trood-metarepository.git
-    cd trood-metarepository
-    ```
+   ```bash
+   git clone https://github.com/your-username/trood-metarepository.git
+   cd trood-metarepository
+   ```
 3. **Set Up the Development Environment:**
 
 4. **Create a Branch:**
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-    Use the branch naming conventions listed below.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+   Use the branch naming conventions listed below.
 
 ---
 
 ## 📝 **Branch Naming Conventions**
 
 Branches should follow this structure:
+
 ```
 [type_of_change]/[feature_name]
 ```
+
 **Types of changes:**
+
 - `feature`: New features or enhancements.
 - `bug`: Fixes for bugs or issues.
 - `fix`: Minor fixes or optimizations.
 - `chore`: Maintenance tasks, like refactoring or dependency updates.
 
 **Example:**
+
 ```
 feature/AI_search
 ```
@@ -67,10 +70,13 @@ feature/AI_search
 ## 🔄 **Commit Messages**
 
 A good commit message should be concise and descriptive. Format:
+
 ```
 [type]: [description]
 ```
+
 **Types:**
+
 - `feat`: For new features.
 - `fix`: For bug fixes.
 - `docs`: For changes to documentation.
@@ -78,6 +84,7 @@ A good commit message should be concise and descriptive. Format:
 - `test`: For adding or updating tests.
 
 **Example:**
+
 ```
 feat: Implement AI-powered search functionality
 ```
@@ -87,10 +94,11 @@ feat: Implement AI-powered search functionality
 ## 🔍 **Pull Requests**
 
 Before submitting a pull request:
+
 1. Ensure your branch is up to date with the `main` branch:
-    ```bash
-    git pull origin main
-    ```
+   ```bash
+   git pull origin main
+   ```
 2. Run tests and ensure there are no errors.
 3. Submit the pull request, linking the related ClickUp task if applicable.
 
@@ -99,6 +107,7 @@ Before submitting a pull request:
 ## 🔧 **Code Reviews**
 
 We follow these guidelines for code reviews:
+
 - **Constructive Feedback:** Reviewers provide feedback that focuses on the code and not the person.
 - **Code Quality:** Ensure code follows the project’s style and standards.
 - **Automated Comments:** If a pull request receives **more than 7 comments** or **extends to 3 iterations**, it will be closed and reevaluated.
@@ -106,12 +115,14 @@ We follow these guidelines for code reviews:
 ---
 
 ## 📂 **File and Directory Structure**
+
 Ensure you place contributions in the appropriate directory under the relevant modules:
+
 ```
 /trood/
     ├── business-objects/
     ├── processes-and-events/
-    ├── infrastructure-devops/
+    ├── infrastructure/
     ├── data-analysis/
     ├── front-end/
     ├── security/
@@ -122,7 +133,9 @@ Ensure you place contributions in the appropriate directory under the relevant m
 ---
 
 ## ✅ **Contribution Checklist**
+
 Before submitting a contribution, make sure:
+
 - [ ] Code adheres to the project’s coding standards.
 - [ ] Documentation is updated where necessary.
 - [ ] Code has been tested locally.
@@ -131,6 +144,7 @@ Before submitting a contribution, make sure:
 ---
 
 ## 📜 **License**
+
 By contributing, you agree that your contributions will be licensed under the same license as this repository. See [LICENSE](./LICENSE) for details.
 
 ---
