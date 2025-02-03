@@ -19,4 +19,4 @@ The `business-objects` folder focuses on managing business-related data and obje
 - 📖 **Documentation:** Improve or create new documentation to help developers implement business logic more efficiently.
 - 🔍 **Feature Enhancements:** Add new features to support complex relationships, validations, or business workflows.
 
-For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s streamline business object development together! 🌟
+For more details on contributing, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file. Let’s streamline business object development together! 🌟
