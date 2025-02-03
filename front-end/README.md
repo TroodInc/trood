@@ -19,4 +19,4 @@ The `front-end` folder contains repositories and libraries focused on creating d
 - 📖 **Documentation:** Provide usage examples and detailed documentation to help developers implement UI solutions effectively.
 - 🔍 **Feature Development:** Add support for accessibility, responsiveness, and internationalization (i18n).
 
-For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s create beautiful and efficient interfaces together! 🌟
+For more details on contributing, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file. Let’s create beautiful and efficient interfaces together! 🌟
