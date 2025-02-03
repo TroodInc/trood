@@ -19,4 +19,4 @@ The `human-workflow` folder is dedicated to repositories and tools that facilita
 - 📖 **Documentation:** Provide examples and best practices for implementing human-workflow integrations.
 - 🔍 **Enhance Orchestration:** Develop solutions for complex workflows requiring dynamic human involvement.
 
-For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s build optimized workflows that bridge human intelligence and automation! 🌟
+For more details on contributing, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file. Let’s build optimized workflows that bridge human intelligence and automation! 🌟
