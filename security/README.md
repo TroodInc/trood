@@ -19,4 +19,4 @@ The `security` folder is dedicated to repositories and tools designed to ensure 
 - 📖 **Documentation:** Provide best practices, security guides, or setup instructions to help developers implement security features.
 - 🔍 **Threat Detection Enhancements:** Develop new modules for detecting and mitigating security threats in real time.
 
-For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s build secure and resilient systems together! 🌟
+For more details on contributing, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file. Let’s build secure and resilient systems together! 🌟
