@@ -84,16 +84,16 @@ Engage with the community by:
 
 ## 📂 Repository Structure
 
-We maintain structured categories for easier discovery. Explore key submodules:
-| **Category** | **Repository** | **Description** |
-|-------------------------|-----------------------------|----------------|
-| **ORM & Data Management** | `business-objects/ORM` | High-performance PostgreSQL ORM |
-| **Authentication** | `infrastructure/auth` | Secure authentication system |
-| **Mail Services** | `infrastructure/mail` | Scalable mail service |
-| **File Storage** | `infrastructure/fileservice` | Lightweight file service |
-| **Web3 & Tokens** | `blockchain/TRST0` | Revenue-sharing token system |
-| **Front-end** | `front-end/trood-core-template` | React/Redux boilerplate |
-A full list of submodules is available in [DESCRIPTION.md](DESCRIPTION.md).
+| **Module**                | **Path**                         | **Description**                                         |
+|--------------------------|-----------------------------------|---------------------------------------------------------|
+| **Business Objects**      | `business-objects/`              | Tools for managing business-related data and objects.   |
+| **Processes and Events**  | `processes-and-events/`          | Solutions for event-driven workflows and process orchestration. |
+| **Infrastructure**        | `infrastructure/`                | Libraries for deployment, CI/CD, and scalable infrastructure. |
+| **Data Analysis**         | `data-analysis/`                 | Tools for data processing, visualization, and machine learning. |
+| **Front-End**             | `front-end/`                     | UI components, design systems, and front-end templates. |
+| **Security**              | `security/`                      | Solutions for authentication, encryption, and vulnerability management. |
+| **Blockchain**            | `blockchain/`                    | Repositories for tokenization, smart contracts, and blockchain APIs. |
+| **Human Workflow**        | `human-workflow/`                | Task automation, collaboration, and human-in-the-loop processes. |
 
 ---
 
