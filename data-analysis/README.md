@@ -19,4 +19,4 @@ The `data-analysis` folder focuses on repositories that provide tools, libraries
 - 📖 **Documentation:** Enhance existing documentation or create new guides for implementing data solutions.
 - 🔍 **Develop ML Integrations:** Extend ML-based tools to enable advanced predictive or prescriptive analytics.
 
-For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s build data-powered solutions together! 🌟
+For more details on contributing, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file. Let’s build data-powered solutions together! 🌟
