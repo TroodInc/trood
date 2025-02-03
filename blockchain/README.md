@@ -18,4 +18,4 @@ The `blockchain` folder is dedicated to repositories related to decentralized sy
 - 🛠 **Enhance Existing Repositories:** Improve smart contract templates, optimize blockchain interaction layers, or enhance tokenization systems.
 - 🔍 **Documentation:** Expand and improve documentation to help others understand and implement blockchain-based solutions.
 
-For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s collaborate to build robust, decentralized solutions together! 🌟
+For more details on contributing, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file. Let’s collaborate to build robust, decentralized solutions together! 🌟
