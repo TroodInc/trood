@@ -19,4 +19,4 @@ The `processes-and-events` folder focuses on repositories designed to manage wor
 - 📖 **Documentation:** Provide tutorials or examples on setting up event-driven systems and workflows.
 - 🔍 **Process Optimization:** Identify bottlenecks and enhance event handling or task execution efficiency.
 
-For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s streamline processes and events for robust automation! 🌟
+For more details on contributing, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file. Let’s streamline processes and events for robust automation! 🌟
