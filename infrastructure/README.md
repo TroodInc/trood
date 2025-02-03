@@ -1,3 +1,26 @@
+## 🏗️ **infrastructure/** Module
+
+### 🌐 **Purpose:**
+The `infrastructure` folder provides repositories and tools focused on setting up, managing, and automating deployment environments. This module ensures the scalability, security, and reliability of applications through DevOps practices, CI/CD pipelines, and infrastructure management solutions.
+
+---
+
+### 📚 **What You Can Find Here:**
+- 🚀 **Deployment Tools:** Repositories for automating server provisioning, application deployment, and scaling.
+- 🔐 **Authentication and Security Services:** Tools and libraries to secure applications, manage access control, and handle user authentication.
+- ⚙️ **Configuration Management:** Solutions for managing and maintaining configuration files across environments.
+- 🔄 **CI/CD Pipelines:** Continuous integration and deployment setups for automated builds and testing.
+
+---
+
+### 👨‍💻 **Developer Contribution Opportunities:**
+- 🚀 **Enhance Deployment Automation:** Contribute scripts or tools to optimize infrastructure provisioning and scaling.
+- 🔐 **Improve Security Services:** Add new authentication methods, access control mechanisms, or vulnerability scanners.
+- 🛠 **Optimize CI/CD Pipelines:** Help improve build processes, automated testing, and continuous delivery.
+- 📖 **Documentation:** Provide guides on infrastructure best practices, deployment workflows, or environment setup.
+
+For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s build resilient and scalable infrastructure together! 🌟
+
 # Capabilities of File Service
 
 ### Flexible integration with cloud storage
@@ -19,50 +42,3 @@
 
 Useful for "safe" deletion and the possibility of "restoration" if needed.
 
-
-# Capabilities of Auth Service (ABAC)
-
-### Attribute-Based Access Control
-
-- You can check access not only by roles but also by user attributes, object attributes, and environment (sbj, obj, ctx).
-- Complex conditions with AND/OR, operators (in, not, lt/gt), etc.
-
-For designing "granular" security: "The user sees objects where `object.owner == user.id` or `object.isPublic == true`."
-
-### 2-Factor Authentication
-
-- Ready-made logic for SMS/phone verification (can be extended).
-- Management of factors and temporary tokens.
-
-If additional security measures are needed, everything is built-in and available out of the box.
-
-### Field masking mechanism
-
-- You can hide certain fields in the response (e.g., "salary" for regular users).
-- Convenient when the same entity is used by different user categories.
-
-
-# Capabilities of Mail Service
-
-### Connecting external mail servers
-
-- SMTP/IMAP can be configured for any mail provider (Gmail, corporate Exchange, etc.).
-- Developers don’t need to solve the problem of "how to communicate with the mail server," everything is implemented "out of the box."
-
-### Grouping emails into threads
-
-- Analysis of `reply-to` headers → merging emails into discussion threads.
-
-This simplifies communication logic and searching for the entire history on a topic.
-
-### Working with folders and contacts
-
-- Creating folders, moving emails.
-- Bulk operations, linking emails and contacts.
-
-Mechanics very similar to a "standard email client," but available via API.
-
-### Attachments
-
-- Works in conjunction with File Service (an uploaded file can be immediately attached to an email).
-- Management of large files/documents without manual workarounds.

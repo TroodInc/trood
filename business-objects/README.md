@@ -1,37 +1,22 @@
-## Capabilities of Custodian
+## 🏢 **business-objects/** Module
 
-### Broad data search and selection capabilities
+### 🏗️ **Purpose:**
+The `business-objects` folder focuses on managing business-related data and objects through efficient and reusable components. This module includes repositories for data persistence, modeling, and orchestration tools that enable robust and scalable data-driven applications.
 
-- RQL queries (filters, sorting, pagination).
-- Built-in `only/exclude` parameters for selective field output.
-- Depth management for nested relationships.
-  These mechanisms allow efficient collection of complex data in a "tree" structure in one request, saving effort on writing manual joins.
+---
 
-### Relationship management (including onDelete and generic relationships)
+### 📚 **What You Can Find Here:**
+- 📄 **Object-Relational Mappers (ORMs):** Tools for mapping business entities to database schemas, such as the Custodian ORM.
+- 📊 **Data Models:** Predefined business object templates and reusable data models for rapid development.
+- 🔄 **CRUD Functionality:** Ready-to-use solutions for creating, reading, updating, and deleting business data.
+- 🛠 **Business Logic Automation:** Repositories for automating common business logic processes.
 
-- Multiple deletion modes (cascade, restrict, setNull).
-- Support for "generic" references, where one record can reference multiple potential object types.
-  This provides great flexibility in modeling: you can describe polymorphic relationships between objects without additional "manual" code.
+---
 
-### Calling external services on data changes (actions)
+### 👨‍💻 **Developer Contribution Opportunities:**
+- 🚀 **Expand Business Object Libraries:** Add new data models, custom object schemas, or features for the Custodian ORM.
+- 🛠 **Optimize Data Access:** Contribute optimizations to enhance query performance and scalability.
+- 📖 **Documentation:** Improve or create new documentation to help developers implement business logic more efficiently.
+- 🔍 **Feature Enhancements:** Add new features to support complex relationships, validations, or business workflows.
 
-- Ability to "subscribe" to create/update/delete events and trigger arbitrary HTTP endpoints.
-- Inclusion of required fields (`includeValues`) when sending, including support for generic logic (various types of related objects).
-  This is convenient when you need to automatically integrate with other systems (notify CRM, trigger calculations, etc.) without writing your own "middleware."
-
-### Fine support for bulk operations
-
-- POST, PATCH, DELETE multiple records in one request.
-- Full transactionality (either all records are changed, or a rollback occurs).
-  For large volumes of data, this reduces network overhead and simplifies code.
-
-### Optimistic locking (CAS)
-
-- Prevents conflicts when editing the same record in parallel.
-- If CAS is not needed, it can be disabled.
-
-### Convenient migrations
-
-- Schema management through a full-fledged migration mechanism (history, branching, rollbacks).
-- Generation and application of migrations without manual SQL writing.
-- Ability to combine migrations with metadata (when you need to quickly change the structure on the fly).
+For more details on contributing, please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file. Let’s streamline business object development together! 🌟
