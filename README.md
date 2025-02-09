@@ -47,16 +47,18 @@ Trood follows the **AI-driven software automation paradigm**, where the system:
 
 # Try out Trood
 
+one-button-deploy-on-google | one-button-deploy-on-aws | one-button-deploy-on-azure
+
 - **Explore the Open-Source Repository** (GitHub) to understand the available building blocks.  
 - **Use the AI CTO Interface** to define business logic, infrastructure needs, and project goals.  
 - **Deploy AI-driven automation** to set up the necessary architecture, workflows, and DevOps pipelines.  
 - **Engage with the Trood Community** for collaboration and improvements.  
 
-## Install 
+## Install
 
 ...
 
-## Run 
+## Run
 
 ...
 
