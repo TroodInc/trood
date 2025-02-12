@@ -3,11 +3,11 @@
 **Trood KISS is a smart, AI-powered command-line tool that scans your project's files to quickly detect and fix bugs, dependency conflicts, and other common coding issues.**
 
 ## Problems Solved 🔧
-- Detecting code bugs 🐞🔍
-- Resolving dependency conflicts ⚔️🔄
-- Identifying configuration and integration issues ⚙️🛠️
-- Uncovering architectural problems 🏗️🧩
-- Providing actionable debugging suggestions and resource links 🔗💡
+- Detecting code bugs 🐞
+- Resolving dependency conflicts ⚔️
+- Identifying configuration and integration issues ⚙️🛠
+- Uncovering architectural problems 🏗️
+- Providing actionable debugging suggestions and resource links 🔗
 
 ## Key Features ✨
 - **Project Analysis 📂:** Scans and interprets your project’s files and architecture.
