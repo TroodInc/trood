@@ -17,27 +17,35 @@ Thank you for your interest in contributing to **Trood KISS CLI**! 🎉 We welco
 
 1. **Fork the Repository** 🍴: Click the **Fork** button at the top right of the repository to create your own copy.
 2. **Clone Your Fork** 💻: Clone your forked repository to your local machine:
+
    ```bash
-   git clone https://github.com/<your-username>/trood-kiss-cli.git
+   git@github.com:TroodInc/trood-kiss.git
    ```
+
 3. **Create a Branch** 🌱: Create a new branch for your work with a descriptive name (e.g., `feature-add-debug-guidance` or `bugfix-issue-parser`):
+
    ```bash
    git checkout -b your-branch-name
    ```
+
 4. **Make Your Changes** 🛠️: Implement your changes, add tests if applicable, and update documentation as needed.
 5. **Commit Changes** 📌: Write clear and descriptive commit messages. Example:
+
    - `fix: resolve command parsing error`
    - `feat: add step-by-step debugging guidance`
+
 6. **Push Your Branch** 🚀: Push your changes to your fork:
+
    ```bash
    git push origin your-branch-name
    ```
+
 7. **Open a Pull Request** 🔄: Submit a pull request (PR) against the `main` branch. Describe your changes and reference any related issues.
 
 ## 🐞 Reporting Bugs
 
 If you find a bug:
-- **Check for Existing Issues** 🔍: Look through [existing issues](https://github.com/yourusername/trood-kiss-cli/issues) to see if it’s already reported.
+- **Check for Existing Issues** 🔍: Look through [existing issues](https://github.com/TroodInc/trood-kiss/issues) to see if it’s already reported.
 - **Open a New Issue** 📄: If not, submit a new issue and include:
   - A clear description of the bug.
   - Steps to reproduce the problem.
