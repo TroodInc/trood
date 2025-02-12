@@ -14,7 +14,6 @@
 - **Context-Aware Debugging 🧠:** Uses AI to pinpoint issues and suggest fixes.
 - **Automated Research 🌐:** Searches online for solutions and expert contacts.
 - **CLI-First Design 💻:** Offers a user-friendly command-line interface that integrates smoothly into your workflow.
-- **Future-Proofing 🔮:** Designed to evolve into an open-source LLM-powered tool for both online and offline support.
 
 ## Vision 🎯
 We aim to revolutionize the debugging process by automating project analysis and leveraging AI to deliver precise, context-aware recommendations—making development faster, smarter, and more efficient. 🚀💡
