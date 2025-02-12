@@ -4,14 +4,14 @@
 Thank you for your interest in contributing to **Trood KISS CLI**! 🎉 We welcome contributions of all kinds—bug fixes, new features, documentation improvements, or fresh ideas. Your support makes Trood KISS CLI better for everyone! 🙌
 
 ## 📚 Table of Contents
-- [How to Contribute](#how-to-contribute)
-- [Reporting Bugs](#reporting-bugs)
-- [Suggesting Enhancements](#suggesting-enhancements)
-- [Pull Requests](#pull-requests)
-- [Coding Guidelines](#coding-guidelines)
-- [Documentation](#documentation)
-- [Community & Support](#community--support)
-- [License](#license)
+- [How to Contribute](##how-to-contribute)
+- [Reporting Bugs](##reporting-bugs)
+- [Suggesting Enhancements](##suggesting-enhancements)
+- [Pull Requests](##pull-requests)
+- [Coding Guidelines](##coding-guidelines)
+- [Documentation](##documentation)
+- [Community & Support](##community--support)
+- [License](##license)
 
 ## 🛠️ How to Contribute
 
