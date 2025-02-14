@@ -1,7 +1,7 @@
 
-# Contributing to Trood KISS CLI 🚀
+# Contributing to Trood CLI 🚀
 
-Thank you for your interest in contributing to **Trood KISS CLI**! 🎉 We welcome contributions of all kinds—bug fixes, new features, documentation improvements, or fresh ideas. Your support makes Trood KISS CLI better for everyone! 🙌
+Thank you for your interest in contributing to **Trood CLI**! 🎉 We welcome contributions of all kinds—bug fixes, new features, documentation improvements, or fresh ideas. Your support makes Trood CLI better for everyone! 🙌
 
 ## 🛠️ How to Contribute
 
@@ -75,14 +75,14 @@ Good documentation benefits everyone:
 ## 🤝 Community & Support
 
 - **GitHub Issues** 💬: Use issues to report bugs, suggest features, and ask questions.
-- **Join Our Community** 🌍: Engage with us on [Discord/Slack/Other Channel](#).
+- **Join Our Community** 🌍: Engage with us on [Launchpad](https://trood.com/launchpad).
 - **Respect and Collaboration** 🤗: Be kind, constructive, and professional in discussions.
 
 ## 📜 License
 
-By contributing to Trood KISS CLI, you agree that your contributions will be licensed under the [Apache 2.0 License](LICENSE).
+By contributing to Trood CLI, you agree that your contributions will be licensed under the [Apache 2.0 License](LICENSE).
 
 ---
 
-Thank you for contributing! 🚀 Together, we’re making Trood KISS CLI better! 🎉
+Thank you for contributing! 🚀 Together, we’re making Trood CLI better! 🎉
 ```
