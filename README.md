@@ -1,7 +1,7 @@
 # Trood CLI
 
 ![GitHub License](https://img.shields.io/github/license/TroodInc/trood)
-![Discord](https://img.shields.io/discord/965192030273802290?style=flat&logo=discord&label=community&logoColor=%23ffffff&color=%235865F2)
+[![Discord](https://img.shields.io/discord/965192030273802290?style=flat&logo=discord&label=community&logoColor=%23ffffff&color=%235865F2)](https://discord.gg/fb4sBnMGSR)
 
 Welcome to Trood CLI, an AI-powered debugging tool that redefines troubleshooting by detecting and solving potential issues before they screw up your production.
 
