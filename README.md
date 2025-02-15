@@ -15,7 +15,7 @@ Trood CLI is designed to tackle the most frustrating and time-consuming challeng
 - **analyzes project's environment** – searches for potential dependency conflicts and known issues;
 - **saves your time** by aggregating information from various resources;
 - **delivers a comprehensive project health report** to keep you posted;
-- and **engages community helpers** with **relevant skillset** providing them with only the data needed to quickly solve your problem
+- and **engages community experts** with **relevant skillset** providing them with only the data needed to quickly solve your problem.
 
 ---
 
