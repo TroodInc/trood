@@ -3,23 +3,25 @@
 ![GitHub License](https://img.shields.io/github/license/TroodInc/trood)
 ![Discord](https://img.shields.io/discord/965192030273802290?style=flat&logo=discord&label=community&logoColor=%23ffffff&color=%235865F2)
 
-Welcome to Trood CLI, an AI-powered debugging tool that redefines troubleshooting by detecting and solving potential issues before they screw up your production.
+Welcome to Trood CLI, an AI-powered & Community-powered debugging tool that redefines troubleshooting by detecting potential issues before they screw up your production,
+and solving complicated problems GenAI can't help you with.
 
 ---
 
 ## 🔍 What We Offer
 
-Trood CLI is designed to tackle the most frustrating and time-consuming challenges developers face every day, it:
+Trood CLI is designed to tackle the most frustrating and time-consuming challenges developers face every day. It:
 - **identifies current and potential issues** in your project before bugs 🐞 make it to production;
 - **analyzes project's environment** – searches for potential dependency conflicts and known issues;
 - **saves your time** by aggregating information from various resources;
-- and **delivers a comprehensive project health report** to keep you posted.
+- **delivers a comprehensive project health report** to keep you posted;
+- and **engages community helpers** with **relevant skillset** providing them with only the data needed to quickly solve your problem
 
 ---
 
 ## 🌅 Vision  
 
-Our goal is to **make project analysis easier** and use AI to **give accurate debugging suggestions**, helping developers work faster and more efficiently.
+Our goal is to **make project analysis easier**, **give accurate debugging suggestions**, and **unite teams** helping developers work faster and more efficiently.
 
 Trood CLI solves two main problems:
 
