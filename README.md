@@ -36,7 +36,7 @@ We're building beyond debugging. Our next step is to integrate the repository wi
 - [Trood Business/Development Manager](https://trood.com/bdm), for full-scale integration of **business and product architecture, CI/CD, QA, and code management.**
 - [Trood Community](https://trood.com/launchpad), to seamlessly **find, engage, and reward** human support from people with **best-matching skills.**
 
-This repository will be the foundation of the AI CTO we are building 👀
+This repository will be the foundation of the [AI CTO](https://drive.google.com/file/d/1vwete0vAPcEDZrBoGUNRTiJx6OMET9-o/view) we are building 👀
 
 ---
 ## Contributing
