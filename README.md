@@ -42,3 +42,10 @@ This repository will be the foundation of the AI CTO we are building 👀
 ## Contributing
 
 We’re building a better debugging tool, and your expertise can help. Check out [CONTRIBUTING.md](https://github.com/TroodInc/trood/blob/main/CONTRIBUTING.md) to get started, explore our [Roadmap](https://github.com/TroodInc/trood/issues/18) and [issues](https://github.com/TroodInc/trood/issues). Every contribution makes a difference.
+
+Join our socials for chats, news, memes, and vibes!
+[Discord](https://discord.gg/ktPZ8cDxCT)
+[Telegram](https://t.me/troodcommunity)
+[Launchpad](trood.com/laaunchpad) 
+[X](trood.com/troodinc)
+[LinkedIn](https://www.linkedin.com/company/troodinc)
