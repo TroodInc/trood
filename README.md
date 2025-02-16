@@ -1,7 +1,9 @@
 # Trood CLI
 
-![GitHub License](https://img.shields.io/github/license/TroodInc/trood)
-[![Discord](https://img.shields.io/discord/965192030273802290?style=flat&logo=discord&label=community&logoColor=%23ffffff&color=%235865F2)](https://discord.gg/ktPZ8cDxCT)
+![GitHub License](https://img.shields.io/github/license/TroodInc/trood?label=License)
+[![Discord](https://img.shields.io/discord/965192030273802290?style=flat&logo=discord&label=Community&logoColor=%23ffffff&color=%235865F2)](https://discord.gg/ktPZ8cDxCT)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/troodinc?label=Run%20on%20%40troodinc)](https://x.com/troodinc)
+[![Telegram](https://img.shields.io/badge/Run_on_@troodcommunity-24a1d3?logo=telegram&logoColor=white)](https://t.me/troodcommunity)
 
 Welcome to Trood CLI, an AI-powered debugging tool that redefines troubleshooting by detecting and solving potential issues before they screw up your production.
 
@@ -39,6 +41,7 @@ We're building beyond debugging. Our next step is to integrate the repository wi
 This repository will be the foundation of the AI CTO we are building 👀
 
 ---
+
 ## Contributing
 
 We’re building a better debugging tool, and your expertise can help. Check out [CONTRIBUTING.md](https://github.com/TroodInc/trood/blob/main/CONTRIBUTING.md) to get started, explore our [Roadmap](https://github.com/TroodInc/trood/issues/18) and [issues](https://github.com/TroodInc/trood/issues). Every contribution makes a difference.
