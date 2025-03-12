@@ -19,6 +19,21 @@ Trood CLI solves two main problems:
 2. **Scaling under pressure**. Deadlines are tight, and it’s hard to bring in new people fast. Trood CLI helps by finding known issues and summarizing the results, saving you time and reducing the cost of delays.
 
 ---
+## Running
+
+This assumes you have cloned this repo to the current directory and have Go installed.
+
+```sh
+cd src
+
+go build
+
+./trood
+```
+
+Then you can follow the `trood` command's CLI help for usage instructions.
+
+---
 
 ## What We Offer
 
