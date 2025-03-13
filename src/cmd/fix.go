@@ -1,73 +1,75 @@
 package cmd
 
 import (
+	"errors"
 	"fmt"
+	"github.com/spf13/cobra"
 	"os"
 	"path/filepath"
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
-	"github.com/spf13/cobra"
 )
 
 var selectedFiles = make(map[string]bool)
 
-var fixCmd = &cobra.Command{
-	Use:   "fix",
-	Short: "Detect and fix issues in a project",
-	Long:  `An interactive tool to scan project files, identify potential problems, and suggest fixes.`,
-	Run: func(cmd *cobra.Command, args []string) {
-		path := "."
-		if len(args) > 0 {
-			path = args[0]
-		}
-
-		if _, err := os.Stat(path); os.IsNotExist(err) {
-			fmt.Println("Error: The specified path does not exist.")
-			return
-		}
-
-		app := tview.NewApplication()
-		treeRoot := tview.NewTreeNode(path).SetSelectable(false)
-		treeView := tview.NewTreeView().SetRoot(treeRoot).SetCurrentNode(treeRoot)
-
-		loadFilesIntoTree(treeRoot, path)
-
-		treeView.SetSelectedFunc(func(node *tview.TreeNode) {
-			path, ok := node.GetReference().(string)
-			if !ok {
-				return
+func newFixCmd() *cobra.Command {
+	cmd := &cobra.Command{
+		Use:   "fix",
+		Short: "Detect and fix issues in a project",
+		Long:  `An interactive tool to scan project files, identify potential problems, and suggest fixes.`,
+		RunE: func(_ *cobra.Command, args []string) error {
+			path := "."
+			if len(args) > 0 {
+				path = args[0]
 			}
 
-			if selectedFiles[path] {
-				deselectRecursively(node)
-			} else {
-				selectRecursively(node)
+			if _, err := os.Stat(path); os.IsNotExist(err) {
+				return errors.New("the specified path does not exist")
 			}
-		})
 
-		treeView.SetInputCapture(func(event *tcell.EventKey) *tcell.EventKey {
-			if event.Key() == tcell.KeyEnter {
-				app.Stop()
-				printSelectedFiles()
-				return nil
+			app := tview.NewApplication()
+			treeRoot := tview.NewTreeNode(path).SetSelectable(false)
+			treeView := tview.NewTreeView().SetRoot(treeRoot).SetCurrentNode(treeRoot)
+
+			loadFilesIntoTree(treeRoot, path)
+
+			treeView.SetSelectedFunc(func(node *tview.TreeNode) {
+				path, ok := node.GetReference().(string)
+				if !ok {
+					return
+				}
+
+				if selectedFiles[path] {
+					deselectRecursively(node)
+				} else {
+					selectRecursively(node)
+				}
+			})
+
+			treeView.SetInputCapture(func(event *tcell.EventKey) *tcell.EventKey {
+				if event.Key() == tcell.KeyEnter {
+					app.Stop()
+					printSelectedFiles()
+					return nil
+				}
+				return event
+			})
+
+			layout := tview.NewFlex().
+				SetDirection(tview.FlexRow).
+				AddItem(tview.NewTextView().SetText("Use ↑↓ to navigate, Space to select, Enter to confirm."), 1, 1, false).
+				AddItem(treeView, 0, 1, true)
+
+			if err := app.SetRoot(layout, true).Run(); err != nil {
+				return err
 			}
-			return event
-		})
 
-		layout := tview.NewFlex().
-			SetDirection(tview.FlexRow).
-			AddItem(tview.NewTextView().SetText("Use ↑↓ to navigate, Space to select, Enter to confirm."), 1, 1, false).
-			AddItem(treeView, 0, 1, true)
+			return nil
+		},
+	}
 
-		if err := app.SetRoot(layout, true).Run(); err != nil {
-			panic(err)
-		}
-	},
-}
-
-func init() {
-	rootCmd.AddCommand(fixCmd)
+	return cmd
 }
 
 func loadFilesIntoTree(parentNode *tview.TreeNode, path string) {

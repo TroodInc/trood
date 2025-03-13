@@ -1,25 +1,19 @@
 package cmd
 
 import (
-	"os"
-
 	"github.com/spf13/cobra"
 )
 
-var rootCmd = &cobra.Command{
-	Use:   "trood",
-	Short: "A CLI tool for detecting and fixing issues in your projects.",
-	Long: `Trood is an interactive command-line tool designed to scan project files,
+func NewRootCmd() *cobra.Command {
+	cmd := &cobra.Command{
+		Use:   "trood",
+		Short: "A CLI tool for detecting and fixing issues in your projects.",
+		Long: `Trood is an interactive command-line tool designed to scan project files,
 identify potential issues, and provide actionable fixes.`,
-}
-
-func Execute() {
-	err := rootCmd.Execute()
-	if err != nil {
-		os.Exit(1)
+		CompletionOptions: cobra.CompletionOptions{DisableDefaultCmd: true},
 	}
-}
 
-func init() {
-	rootCmd.CompletionOptions.DisableDefaultCmd = true
+	cmd.AddCommand(newFixCmd())
+
+	return cmd
 }

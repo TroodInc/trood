@@ -1,0 +1,17 @@
+.vscode/
+.idea/
+.DS_Store
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.tmp
+*.out
+*.json
+*.log
+.env
+vendor/
+bin/
+build/
