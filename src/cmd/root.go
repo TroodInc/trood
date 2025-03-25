@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func NewRootCmd() *cobra.Command {
+func RootCmd() *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "trood",
 		Short: "A CLI tool for detecting and fixing issues in your projects.",
@@ -13,7 +13,7 @@ identify potential issues, and provide actionable fixes.`,
 		CompletionOptions: cobra.CompletionOptions{DisableDefaultCmd: true},
 	}
 
-	cmd.AddCommand(newFixCmd())
+	cmd.AddCommand(ScanCmd())
 
 	return cmd
 }
